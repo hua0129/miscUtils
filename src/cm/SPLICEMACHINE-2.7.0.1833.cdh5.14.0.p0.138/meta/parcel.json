@@ -1,0 +1,37 @@
+{
+    "schema_version": 1,
+    "name": "SPLICEMACHINE",
+    "version": "2.7.0.1833.cdh5.14.0.p0.138",
+    "extraVersionInfo": {
+        "baseVersion": "2.7.0.1833",
+        "fullVersion": "2.7.0.1833.cdh5.14.0.p0.138-el6",
+        "patchCount": "0"
+    },
+
+    "setActiveSymlink": true,
+
+    "scripts": {
+        "defines": "splicemachine_env.sh"
+    },
+
+    "packages": [],
+
+    "components": [
+        {
+            "name": "splicemachine",
+            "version": "2.7.0.1833.cdh5.14.0",
+            "pkg_version": "2.7.0.1833+cdh5.14.0+546c743d82",
+            "pkg_release": "1.cdh5.14.0.p0.138"
+        }
+    ],
+
+    "provides": [
+        "hbase-plugin"
+    ],
+
+    "depends": "CDH (== 5.14.0)",
+
+    "users": {},
+
+    "groups": []
+}

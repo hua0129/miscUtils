@@ -1,0 +1,29 @@
+{
+    "schema_version":1,
+    "name":"ECHO",
+    "version":"1.0",
+    "setActiveSymlink":true,
+    "conflicts":"",
+    "provides":[
+        "ECHO"
+    ],
+    "scripts":{
+        "defines":"echo_env.sh"
+    },
+    "packages":[
+        {
+            "name":"echo",
+            "version":"1.0"
+        }
+    ],
+    "components":[
+        {
+            "name":"echo",
+            "version":"1.0",
+            "pkg_version":"1.0",
+            "pkg_release":"1.0"
+        }
+    ],
+    "users":{},
+    "groups":[]
+}
