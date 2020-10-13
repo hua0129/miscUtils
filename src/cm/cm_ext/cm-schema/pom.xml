@@ -12,7 +12,7 @@
     <guava.version>14.0</guava.version>
     <jackson2.version>2.1.0</jackson2.version>
     <joda.version>2.1</joda.version>
-    <junit.version>4.11</junit.version>
+    <junit.version>4.13.1</junit.version>
     <javax.validation.version>1.1.0.Final</javax.validation.version>
     <test.redirectToFile>true</test.redirectToFile>
     <hibernate.validator.version>5.0.1.Final</hibernate.validator.version>
